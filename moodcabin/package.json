@@ -1,0 +1,22 @@
+{
+  "name": "moodcabin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "ssh": "ssh r05221017@35.229.145.199 -p 22 -i ~/Desktop/safest"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.5",
+    "express": "~4.16.1",
+    "firebase-admin": "^9.4.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "pug": "2.0.0-beta11",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.33"
+  }
+}
